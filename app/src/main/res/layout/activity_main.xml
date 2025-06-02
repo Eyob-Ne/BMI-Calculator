@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+  >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body Mass Index"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#00BCD4"
+        />
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="enter_weight_in_kg"
+        android:inputType="numberDecimal"
+        android:background="@drawable/click"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="enter_height_in_m"
+        android:inputType="numberDecimal"
+        android:background="@drawable/click"
+        android:paddingStart="10dp"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="calculate"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:backgroundTint="#1BAAC1"/>
+    <TextView
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"/>
+
+</LinearLayout>
